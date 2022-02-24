@@ -1,0 +1,65 @@
+    .my_nav_bar {
+        position: sticky;
+        top: 0px;
+        z-index: 99999;
+    }
+    .link {
+        color: white;
+        padding-left: 33px;
+        padding-right: 25px;
+        font-family: fantasy;
+        font-size: 25px;
+        display: inline;
+        text-align: center;
+    }
+
+    .link:hover {
+        text-decoration: underline;
+        font-size: 30;
+        background-color: rgb(87, 85, 219);
+    }
+
+    html {
+        scroll-behavior: smooth
+    }
+    body {
+        text-align: center;
+        background-color: rgb(238, 109, 70);
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 1.2;
+        font-family: cursive;
+        font-weight: 300;
+    }
+    .h{
+        color: black;
+        cursor: pointer;
+        font-size: 20px;
+
+    }
+    .i{
+        float: left;
+    }
+    .float-container {
+        padding: 20px;
+    }
+
+    .float-child {
+        float: left;
+    }  
+    .clas{
+        border: 1.5px solid whitesmoke;
+        width: 200 ;
+        padding-top: 20px;
+        margin-left: 20px;
+        float: center;
+    }
+    .clash{
+        width: 200 ;
+        margin-top:  -20px;
+        padding-top: 20px;
+        margin-left: 20px;
+        float: center;
+    }
+
